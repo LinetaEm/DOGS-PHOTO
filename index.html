@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog photo</title>
+</head>
+<body>
+    <h1>Dog photo</h1>
+    <form id="dogForm">
+        <label for="breedSelect">Select breed:</label>
+        <select id="breedSelect" name="breed">
+            <option value="random">Random</option>
+            <option value="beagle">Beagle</option>
+            <option value="bulldog">Bulldog</option>
+            <option value="poodle">Poodle</option>
+        </select>
+        <span id="breedInfo"></span>
+        <button type="button" onclick="getRandomDogImage()">Get image</button>
+    </form>
+    <div id="dogImage"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
